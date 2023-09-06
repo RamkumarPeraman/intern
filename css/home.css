@@ -266,7 +266,9 @@ margin-top:20px;
   width: 80%;
   padding: px;
   background-color: white; 
-  border-radius: 15px;
+  /* border-radius: 15px; */
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 
 }
 
@@ -298,7 +300,7 @@ margin-top:20px;
 }
 .r1img h4{
   margin-left: 40px;
-  margin-top: -19px;
+  margin-top: -22px;
 
 }
 .r2 p{
@@ -307,10 +309,16 @@ margin-top:20px;
 }
 #appr{
   margin-left: 240px;
+  margin-top: -20px;
 }
-#hk1{
+.rk11{
+  width: 100px;
+  /* border: 1px solid #ccc; */
+  padding: 2px;
   margin-left: 310px;
-  padding-left: 20px;
-  margin-top: -23px;
-  background-color: yellowgreen;
+  margin-top:-20px ;
+  background-color: green;
 }
+
+
+
