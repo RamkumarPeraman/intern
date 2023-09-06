@@ -254,7 +254,7 @@ margin-top:20px;
 
 .row {
   display: flex;
-  height: 100px;
+  height: px;
   justify-content: space-between;
   align-items: center;
   background-color: white;
@@ -274,7 +274,7 @@ margin-top:20px;
 
 .right {
   width: 15%;
-  padding: 25px;
+  padding: 50px;
   border-left: 2px dotted gray; 
   background-color: white; 
   border-top-right-radius: 15px;
@@ -320,5 +320,70 @@ margin-top:20px;
   background-color: green;
 }
 
+
+
+.border2{
+  border:none;
+  transform: translate(-25px,-50px);
+  width:190px;
+  height:80px;
+  position:fixed;
+  font-family: 'Courier New', Courier, monospace; 
+}
+.border2 .date{
+  width:9%;
+  height:15%;
+}
+.border2 .date2{
+  transform: translate(15px,15px);
+}
+.border2 .datetext2{
+  transform: translate(50px,-3px);
+  color:black;
+  font-weight: bold;
+}
+.border2 .pencil{
+  width:6%;
+  height:14%;
+  margin-left: -10px;
+}
+.border2 .pencil2{
+  transform: translate(170px,-30px);
+}
+.border2 .clock{
+  width:12%;
+  height:19%;
+}
+.border2 .clock2{
+  transform: translate(-1px,10px);
+}
+.border2 .time2{
+  transform: translate(65px,-12px);
+  font-size: 18px;
+  font-weight: bolder;
+}
+.border2 .border2dotgray{
+  border-right:2px dotted gray;
+  height:43px;
+}
+.border2 .border2dotgray2{
+  transform: translate(-23px,-45px);
+}
+.border2 .tick2{
+  width:12%;
+  height:19%;
+  transform: translate(12px,-40px);
+}
+.border2 .low2{
+  transform: translate(55px,-63px);
+  font-size: 15px;
+  font-weight: bolder;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.border2 .trash2{
+  width:11%;
+  height:19%;
+  transform: translate(155px,-80px);
+}
 
 
