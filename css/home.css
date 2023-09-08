@@ -1,6 +1,7 @@
  *{
     padding:0;
     margin:0;
+
 }
 .header {
     display: grid;
@@ -399,7 +400,7 @@ margin-top:20px;
   color:green
 }
 #pr{
-  color:palevioletred
+  color:palevioletred;
 }
 
 
