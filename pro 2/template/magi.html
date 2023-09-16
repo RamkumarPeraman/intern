@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+    <div class="flex flex-row fixed w-screen border-b-2 border-gray-200 ">
+        <img  class="w-20 h-12 lg:w-32 lg:ml-2 lg:h-16 p-4" src="../img/logo.png" alt="logo">
+        <div class="border border-gray mt-2 mb-2 lg:mb-2"></div>
+        <img class=" w-25 h-7 m-1 ml-2 mt-2 lg:m-3 lg:h-10 lg:w-10"src="../img/todo.png" alt="">
+        <p class="mt-4 text-xs lg:text-base lg:mt-5">TODO LIST</p>
+        <p class="my-4 mt-4 bg-gray-100 text-xs ml-2 lg:text-base lg:mt-5">/Over View Board</p>
+        <img class="w-8 md:w-9 lg:w-12 ml-auto mr-2 lg:ml-auto lg:mr-1" src="../img/AddTodo.svg" alt="logo">
+        <img class="w-8 md:w-9 lg:w-12 lg:mr-4 lg:ml-2" src="../img/rit1.svg" alt="logo">
+    </div>
+    <hr>
+    </header>
+    <main>
+        <div class="fixed mt-12 lg:mt-16 mr-3">
+            <div class="group relative">
+                <img src="../img/home.png" alt="Home" width="40" class="mt-3 mx-2 mt-20lg:my-5 lg:w-12 lg:mx-4" />
+                <div class="absolute inset-0 border-r-4 border-transparent group-hover:border-pink-500 my-2 ml-1"></div>
+            </div>
+            <div class="group relative ml-2">
+                <img src="../img/hmdn.png" alt="Article" width="35" class="mx-1 lg:mx-3 mt-4 lg:w-11" />
+                <div class="absolute inset-0 border-r-4 border-transparent group-hover:border-pink-500 mb-3 mt-1 ml-1"></div>
+            </div>
+        </div>
+        <div class="flex fixed mt-12 lg:mt-14 lg:mt-16 h-14 lg:h-20 bg-gray-200 ml-14 lg:ml-20 w-screen">
+            <div class="flex m-2 lg:m-4 lg:ml-10 w-10 md:w-10 lg:w-44 h-10 lg:bg-slate-50 rounded-sm">
+                <img class="md:w-16 ml-2 lg:w-12" src="../img/plus.png">
+                <span class="invisible md:invisible lg:mt-1 lg:pr-4 lg:visible">Add New Task</span>
+            </div>
+            <div class="border border-black mt-2 ml-2 lg:mt-4 h-10"></div>
+            <div class="flex m-2 w- mt-3 h-8 bg-white lg:m-4 lg:h-10 ml-4 lg:w-fit rounded-md lg:bg-white">
+                <img class="w-4 h-4 mt-2 lg:mt-3 m-3" src="../img/Search.png">
+                <input class="w-12 rounded-md mr-8 lg:block lg:w-80" placeholder="Search projects...">
+                <button class="pr-4 hidden lg:block lg:bg-pink-600 mr-4 rounded-md pl-4 mb-1 mt-1 text-white">Search</button>
+            </div>
+            <div class="flex m-4 ml-8 -mr-4 mt-2 lg:mt-4 lg:bg-white rounded-md h-10">
+                <img class="w-28 h-16 -ml-9 -mt-3 lg:w-16 lg:h-16 lg:-ml-2 lg:-mt-3" src="../img/cal.png">
+                <!-- <img class="lg:w-16 lg:h-16 lg:-ml-2 lg:-mt-3" src="../img/cal.png"> -->
+                <p class="mt-1 hidden lg:block ml-2">This month</p>
+                <img class="w-2 h-2 mt-3 hidden lg:block ml-2 mr-2" src="../img/hei.png">
+            </div>
+            <div class="border border-black mr-2 mt-2 mr-px lg:mt-4 lg:ml-8 mb-2 lg:mb-2 h-10"></div>
+            <div class="m-5">
+                <p class="text-lg text-xs mr-4 -mt-4 lg:mt-px lg:mb-2 lg:text-lg">You've got 7 tasks coming up in the next days.</p>
+            </div>
+        </div>
+        <!-- <div class="fixed top-36 left-20 w-full h-full sm:w-full sm:h-full bg-white overflow-hidden"> -->
+            <div class="absolute top-3/4 bottom-0 left-0 w-screen h-20 text-xs sm:h-28 lg:text-base bg-white">
+                <p class="text-center  -mt-19 lg:mt-36 mb-2">&copy; 2022,Alpha Business Solutions Pvt. Ltd.All Rights Reserved.</p>
+            </div>
+        </div>
+</body>
+</html>
