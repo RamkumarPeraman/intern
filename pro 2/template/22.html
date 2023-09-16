@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABS</title>
+    <link href="https://cdn.tailwindcss.com/2.2.16/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="flex flex-row fixed w-screen border-b-2 border-gray-200">
+            <img class="w-20 h-12 lg:w-32 lg:ml-2 lg:h-16 p-4" src="../img/logo.png" alt="logo">
+            <div class="border border-gray mt-2 mb-2 lg:mb-2"></div>
+            <img class="w-25 h-7 m-1 ml-2 mt-2 lg:m-3 lg:h-10 lg:w-10" src="../img/todo.png" alt="">
+            <p class="mt-4 text-xs lg:text-base lg:mt-5">TODO LIST</p>
+            <p class="my-4 mt-4 bg-gray-100 text-xs ml-2 lg:text-base lg:mt-5">/Over View Board</p>
+            <img class="w-8 md:w-9 lg:w-12 ml-auto mr-2 lg:ml-auto lg:mr-1" src="../img/AddTodo.svg" alt="logo">
+            <img class="w-8 md:w-9 lg:w-12 lg:mr-4 lg:ml-2" src="../img/rit1.svg" alt="logo">
+        </div>
+        <hr>
+    </header>
+    <main>
+        <div class="fixed mt-16 top-0 right-3">
+            <div class="group relative">
+                <img src="../img/home.png" alt="Home" width="40" class="my-2 mx-2 lg:my-5 lg:w-12 lg:mx-4" />
+                <div class="absolute inset-0 border-r-4 border-transparent group-hover:border-pink-500 my-2 ml-1"></div>
+            </div>
+            <div class="group relative ml-2">
+                <img src="../img/hmdn.png" alt="Article" width="35" class="mx-1 lg:mx-3 lg:w-11" />
+                <div class="absolute inset-0 border-r-4 border-transparent group-hover:border-pink-500 mb-3 mt-1 ml-1"></div>
+            </div>
+        </div>
+        <div class="flex mt-16 h-14 bg-gray-100 ml-4 sm:ml-20 w-screen sm:w-full md:h-20 lg:h-20 overflow-hidden">
+            <div class="flex m-2 sm:m-4 lg:ml-10 w-10 sm:w-16 lg:w-44 md:w-32 h-10 bg-slate-50 rounded-sm">
+                <img class="pl-1 w-8 sm:w-10 lg:w-12" src="../img/plus.png">
+                <span class="invisible lg:mt-1 lg:pr-4 lg:text-lg lg:visible">Add New Task</span>
+            </div>
+            <div class="border border-gray mt-2 sm:mt-4 mb-2 lg:mb-2 h-6 sm:h-10"></div>
+            <div class="flex m-2 sm:m-4 h-10 sm:h-12 ml-2 sm:ml-4 rounded-md bg-white">
+                <img class="w-4 sm:w-5 h-4 sm:h-5 m-2 sm:m-4 mt-3 sm:mt-4" src="../img/search.png">
+                <input class="w-64 sm:w-80" placeholder="Search projects...">
+                <button class="pr-2 sm:pr-4 mt-2 sm:mt-3 h-6 sm:h-7 bg-pink-600 mr-2 sm:mr-4 rounded-md pl-2 sm:pl-4 mb-1 mt-1 text-white">Search</button>
+            </div>
+            <div class="flex m-2 sm:m-4 h-10 sm:h-12 ml-2 sm:ml-4 rounded-md bg-white">
+                <img class="w-8 sm:w-10 h-8 sm:h-10 ml-1 sm:ml-2 mb-2 -p-2 sm:-p-3" src="../img/cal.png">
+                <p class="mt-1 ml-1 sm:ml-2 mt-2">This month</p>
+                <img class="w-2 h-2 mt-3 ml-2 mr-2" src="../image/todoDownArrow.jpg">
+            </div>
+            <div class="border border-gray mt-2 sm:mt-4 mb-2 lg:mb-2 h-6 sm:h-10"></div>
+            <div class="m-2 sm:m-5">
+                <p class="text-sm sm:text-lg">You've got 7 tasks coming up in the next days.</p>
+            </div>
+        </div>
+        <div class="absolute bottom-0 left-0 w-screen h-20 text-xs sm:h-28 lg:text-base bg-white">
+            <p class="text-center mt-px mb-2">&copy; 2022, Alpha Business Solutions Pvt. Ltd. All Rights Reserved.</p>
+        </div>
+    </main>
+</body>
+</html>
