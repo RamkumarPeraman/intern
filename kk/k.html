@@ -1,0 +1,217 @@
+<!-- ... (your existing code) ... -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Link to your external CSS file -->
+  <link rel="stylesheet" href="css/admin.css">
+  <title>Admin Panel</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <style>
+    /* Additional styles for the form */
+    /* ... (your existing styles) ... */
+    .add-user-form {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.add-user-form h2 {
+  color: #333;
+}
+
+.add-user-form form {
+  display: inline-block;
+  text-align: left;
+  border: 1px solid #ccc;
+  padding: 60px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.add-user-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.add-user-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-user-form button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-user-form button:hover {
+  background-color: #0056b3;
+}
+  </style>
+</head>
+<body>
+  <div class="admin-panel">
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <!-- ... (your existing sidebar code) ... -->
+      <div class="sidebar-header">
+        <h1>Admin Panel</h1>
+    </div>
+    <nav class="sidebar-nav">
+      <a href="#dashboard" class="nav-link">Dashboard</a>
+      <a href="#year2" class="nav-link">2nd Year</a>
+      <a href="#year3" class="nav-link">3rd Year</a>
+      <a href="#year4" class="nav-link">Final Year</a>
+    </nav>
+  </div>
+
+<!-- Content -->
+<div class="content">
+  <div class="head-tg">
+    <div class="content-header">
+      <!-- ... (your existing header code) ... -->
+
+      <h1 style="color:white;">Welcome</h1>
+      <a href="index.html" class="logout">Logout</a>
+      <!-- Add User Button only on the Dashboard -->
+      <button id="addUserButton" style="display:none;">Add User</button>
+    </div>
+  </div>
+  
+  <!-- Dashboard -->
+  <div class="year-content" id="dashboard">
+    <!-- ... (your existing dashboard code) ... -->
+    <h2>    </h2>
+    <!-- Dashboard content here -->
+    <!-- Show the Add User Button on the Dashboard -->
+    <button id="showAddUserButton">Add User</button>
+  </div>
+
+  <!-- ... (your existing code) ... -->
+  <!-- 2nd Year -->
+  <div class="year-content" id="year2">
+    <!-- ... (your existing 2nd year code) ... -->
+    <h2>2nd Year</h2>
+    <a class="card" href="https://www.example.com/another-page">
+      <h2>Click Me!</h2>
+      <p>This card will redirect you to another page.</p>
+    </a>
+    <br>
+    <a class="card" href="https://www.example.com/another-page">
+      <h2>Click Me!</h2>
+      <p>This card will redirect you to another page.</p>
+    </a>
+    <br>
+    <a class="card" href="https://www.example.com/another-page">
+      <h2>Click Me!</h2>
+      <p>This card will redirect you to another page.</p>
+    </a>
+    <br>
+    <a class="card" href="https://www.example.com/another-page">
+      <h2>Click Me!</h2>
+      <p>This card will redirect you to another page.</p>
+    </a>
+
+  </div>
+  
+  <!-- 3rd Year -->
+  <div class="year-content" id="year3">
+    <!-- ... (your existing 3rd year code) ... -->
+    <h2>3rd Year</h2>
+    <br>
+    <a class="card" href="https://www.example.com/another-page">
+      <h2>Gowthami</h2>
+      <p>A/P</p>
+    </a>
+    <br>
+    <a class="card" href="https://www.example.com/another-page">
+      <h2>Ramya</h2>
+      <p>A/p</p>
+    </a>
+    <br>
+    <a class="card" href="https://www.example.com/another-page">
+      <h2>Madhu</h2>
+      <p>A/P</p>
+    </a>
+    <br>
+    <a class="card" href="https://www.example.com/another-page">
+      <h2>Sugana</h2>
+      <p>A/P</p>
+    </a>
+
+
+  </div>
+  
+  <!-- Final Year -->
+  <div class="year-content" id="year4">
+    <!-- ... (your existing final year code) ... -->
+    <h2>Final Year</h2>
+    <a class="card" href="https://www.example.com/another-page">
+      <h2>Click Me!</h2>
+      <p>This card will redirect you to another page.</p>
+    </a>
+    <br>
+    <a class="card" href="https://www.example.com/another-page">
+      <h2>Click Me!</h2>
+      <p>This card will redirect you to another page.</p>
+    </a>
+    <br>
+    <a class="card" href="https://www.example.com/another-page">
+      <h2>Click Me!</h2>
+      <p>This card will redirect you to another page.</p>
+    </a>
+    <br>
+    <a class="card" href="https://www.example.com/another-page">
+      <h2>Click Me!</h2>
+      <p>This card will redirect you to another page.</p>
+    </a>   
+  </div>
+  
+  <!-- Add User Form -->
+  <div class="add-user-form" id="addUserForm" style="display:none;">
+    <!-- ... (your existing form code) ... -->
+    <h2>Add Staff</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="id">ID:</label>
+      <input type="text" id="id" name="id" required>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+      <label for="confirmPassword">Confirm Password:</label>
+      <input type="password" id="confirmPassword" name="confirmPassword" required>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</div>
+
+<!-- JavaScript -->
+<script>
+  const showAddUserButton = document.getElementById('showAddUserButton');
+  const addUserForm = document.getElementById('addUserForm');
+  
+  showAddUserButton.addEventListener('click', () => {
+    showAddUserButton.style.display = 'none';
+    addUserForm.style.display = 'block';
+  });
+  
+    // Listen for the 'beforeunload' event to hide the form when the user navigates away
+    window.addEventListener('beforeunload', () => {
+    addUserForm.style.display = 'none';
+  });
+  // You can add further JavaScript logic here for form submission and handling
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>
