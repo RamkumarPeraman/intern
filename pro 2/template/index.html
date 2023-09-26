@@ -53,7 +53,7 @@
             </div>
         </div>
         <div class="absolute lg:absolute overflow-hidden bg-pink-100 top-28 h-auto md:h-[100%] -mt-2 w-[120%] lg:w-[94.99%] ml-14 lg:mt-6 lg:ml-20">
-            <div class="h-64 lg:h-32 mt-4 overflow-scroll lg:overflow-hidden rounded-lg w-[81%] mr-48 lg:w-[85%] bg-green-200 ml-8 lg:ml-[6%]">
+            <div class="h-64 lg:h-32 mt-4 overflow-x-hidden overflow-scroll lg:overflow-hidden rounded-lg w-[81%] mr-48 lg:w-[85%] bg-green-200 ml-8 lg:ml-[6%]">
                 <div class="lg:flex">
                     <div class="">
                         <div class="lg:flex lg:overflow-hidden overflow-scroll">
@@ -61,48 +61,59 @@
                             <h3 class="float-left text-xl mt-2 lg:mt-1 lg:text-xl lg:mt-[0.8%] lg:ml-2">App Design API User Case Work</h3> 
                             <img src="../img/approved.png" alt="" class="h-7 mt-2 lg:mt-2 lg:ml-2 lg:ml-3 lg:mt-[1%] lg:h-[2.3%] lg:w-6 lg:h-6 lg:w-[2.3%]">
                             <div class="lg:flex lg:-mt-20 lg:ml-2">
-                                 <p class=" mt-2 ml-62 bg-gray-200 ml-96 mr-96 lg:mr-px lg:mt-2 lg:mt-[70%] lg:mb-[70%] lg:ml-2">&nbsp;&nbsp;#Development&nbsp;&nbsp;</p>
-                            </div>
+                                 <p class=" hidden lg:block mt-2 ml-62 bg-gray-200 ml-96 mr-96 lg:mr-px lg:mt-2 lg:mt-[70%] lg:mb-[70%] lg:ml-2">&nbsp;#Development&nbsp;&nbsp;</p>
+                                </div>
                             <br>
                             <div class="lg:flex lg:mb-[1%] lg:ml-2">
                                 <span class="float-left lg:flex lg:ml-80 lg:text-lg lg:mt-2">&nbsp;&nbsp;&nbsp;&nbsp;*Finished in:&nbsp;&nbsp;<p class=" float-right bg-gray-100 mb-20">&nbsp;02:00Hrs&nbsp;</p></span>
                             </div>
                         </div>
                         <div class="lg:fixed -mt-[4.5%] mr-[19%]"> 
-                            <span class="lg:mr-[20%] lg:mb-[200%] lg:ml-10 lg:inline-flex lg:items-baseline">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis saepe voluptate dolore laborum,<br> consectetur repellat pariatur quam aspernatur sapiente iste? Cupiditate officia minus alias earum tempore, maiores minima numquam vero!</span>
+                            <span class="hidden lg:block lg:mr-[20%] lg:mb-[200%] lg:ml-10 lg:inline-flex lg:items-baseline">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis saepe voluptate dolore laborum,<br> consectetur repellat pariatur quam aspernatur sapiente iste? Cupiditate officia minus alias earum tempore, maiores minima numquam vero!</span>
+                            <div class="txt lg:h-0 h-auto ml-8 md:mt-0 -mt-16">
+                                <span class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis saepe voluptate dolore laborum,consectetur repellat pariatur quam aspernatur sapiente iste? Cupiditate officia minus alias earum tempore, maiores minima numquam vero!</span>
+                            </div>
                         </div>
                     </div>
 
                     <!-- right  -->
-                    <div class="lg:border lg:border-black lg:mr-12 lg:mb-2 lg:h-96  lg:mb-2 lg:border-dashed lg:border-1 lg:border-black-200"></div>
-
+                    <div class="lg:block hidden lg:border lg:border-black lg:mr-12 lg:mb-2 lg:h-96  lg:mb-2 lg:border-dashed lg:border-1 lg:border-black-200"></div>
+                    <div class="lg:hidden border border-black mr-12 mb-1 mt-4 w-[180%] mb-2 border-dashed border-1 border-black-200"></div>
                     <div class="lg:mt-4 lg:block">
-                        <div class=" lg:mr-32 lg:flex">
-                            <img src="../img/date.png" alt="date" class="w-8 h-8 lg:w-4 lg:h-4">
+                        <div class=" mt-6 lg:mt-px ml-6 lg:ml-px lg:mr-32 lg:flex">
+                            <img src="../img/date.png" alt="date" class="float-left lg:block w-6 h-6 lg:w-4 lg:h-4">
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <p class="datetext datetext2">24/10/2022</p>
+                            <p class="hidden lg:block float-left datetext datetext2">24/10/2022</p>
+                            <p class="lg:hidden ml-8 block float-left datetext datetext2">24/10/2022</p>
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <img src="../img/pencil.png" alt="pencil" class="w-8 h-8 lg:w-4 lg:h-4">
+                            <img src="../img/pencil.png" alt="pencil" class="hidden lg:block w-8 h-8 lg:w-4 lg:h-4">
+                            <img src="../img/pencil.png" alt="pencil" class="lg:hidden w-6 h-6 ml-[48%] -mt-[7%] lg:w-4 lg:h-4">
                         </div>
                         <div class="lg:flex lg:mt-4">
-                            <img src="../img/alarm-clock.png" alt="clock" class="w-8 h-8 lg:w-4 lg:h-4">
+                            <img src="../img/alarm-clock.png" alt="clock" class="lg:block hidden w-8 h-8 lg:w-4 lg:h-4">
+                            <img src="../img/alarm-clock.png" alt="clock" class="float-left lg:hidden -ml-[36%] mt-[9%] w-8 h-8 lg:w-4 lg:h-4">
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <p class="time time2">18:30</p>
-                            <div class="lg:border lg:border-black lg:ml-20 lg:-mt-[5%] lg:h-12  lg:mb-1 lg:border-dashed lg:border-1 lg:border-black-200"></div>
+                            <p class="lg:block hidden time time2">18:30</p>
+                            <p class="lg:hidden ml-[20%] mt-[2%]">18:30</p>
+                            <div class="lg:block hidden lg:border lg:border-black lg:ml-20 lg:-mt-[5%] lg:h-12  lg:mb-1 lg:border-dashed lg:border-1 lg:border-black-200"></div>
+                            <div class="sticky -mt-3 lg:hidden border border-black ml-[45%] w-16 border-dashed border-1 rotate-90 border-black-200"></div>
+
                         </div>
-                        <div class="lg:flex">
-                            <img src="../img/check.png" alt="tick" class="w-8 h-8 lg:w-4 lg:h-4">
+                        <div class="lg:flex ">
+                            <img src="../img/check.png" alt="tick" class="lg:block hidden w-8 h-8 lg:w-4 lg:h-4">
+                            <img src="../img/check.png" alt="tick" class="lg:hidden float-left mt-[9%] ml-[6%] h-8 lg:w-4 lg:h-4">
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <p class="low2">Low Priority</p>
+                            <p class="float-left lg:block hidden">Low Priority</p>
+                            <p class="float-left lg:hidden mt-[10%]">&nbsp;&nbsp;&nbsp;&nbsp;Low Priority</p>
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <img src="../img/trash.png" alt="delete" class="w-8 h-8 lg:w-4 lg:ml-2 lg:mt-[2%] lg:h-4">
+                            <img src="../img/trash.png" alt="delete" class="lg:block hidden w-8 h-8 lg:w-4 lg:ml-2 lg:mt-[2%] lg:h-4">
+                            <img src="../img/trash.png" alt="delete" class="lg:hidden w-8 h-8 mt-[3%] ml-[50%]">
                          </div>
                     </div>
                 </div>
-                <!-- small  --> 
-
             </div>
-            <div class="h-64 lg:h-32 mt-4 overflow-scroll lg:overflow-hidden rounded-lg w-[81%] mr-48 lg:w-[85%] bg-green-200 ml-8 lg:ml-[6%]">
+            <!-- 2  -->
+            <div class="h-64 lg:h-32 mt-4 overflow-x-hidden overflow-scroll lg:overflow-hidden rounded-lg w-[81%] mr-48 lg:w-[85%] bg-green-200 ml-8 lg:ml-[6%]">
                 <div class="lg:flex">
                     <div class="">
                         <div class="lg:flex lg:overflow-hidden overflow-scroll">
@@ -110,48 +121,59 @@
                             <h3 class="float-left text-xl mt-2 lg:mt-1 lg:text-xl lg:mt-[0.8%] lg:ml-2">App Design API User Case Work</h3> 
                             <img src="../img/approved.png" alt="" class="h-7 mt-2 lg:mt-2 lg:ml-2 lg:ml-3 lg:mt-[1%] lg:h-[2.3%] lg:w-6 lg:h-6 lg:w-[2.3%]">
                             <div class="lg:flex lg:-mt-20 lg:ml-2">
-                                 <p class=" mt-2 ml-62 bg-gray-200 ml-96 mr-96 lg:mr-px lg:mt-2 lg:mt-[70%] lg:mb-[70%] lg:ml-2">&nbsp;&nbsp;#Development&nbsp;&nbsp;</p>
-                            </div>
+                                 <p class=" hidden lg:block mt-2 ml-62 bg-gray-200 ml-96 mr-96 lg:mr-px lg:mt-2 lg:mt-[70%] lg:mb-[70%] lg:ml-2">&nbsp;#Development&nbsp;&nbsp;</p>
+                                </div>
                             <br>
                             <div class="lg:flex lg:mb-[1%] lg:ml-2">
                                 <span class="float-left lg:flex lg:ml-80 lg:text-lg lg:mt-2">&nbsp;&nbsp;&nbsp;&nbsp;*Finished in:&nbsp;&nbsp;<p class=" float-right bg-gray-100 mb-20">&nbsp;02:00Hrs&nbsp;</p></span>
                             </div>
                         </div>
                         <div class="lg:fixed -mt-[4.5%] mr-[19%]"> 
-                            <span class="lg:mr-[20%] lg:mb-[200%] lg:ml-10 lg:inline-flex lg:items-baseline">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis saepe voluptate dolore laborum,<br> consectetur repellat pariatur quam aspernatur sapiente iste? Cupiditate officia minus alias earum tempore, maiores minima numquam vero!</span>
+                            <span class="hidden lg:block lg:mr-[20%] lg:mb-[200%] lg:ml-10 lg:inline-flex lg:items-baseline">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis saepe voluptate dolore laborum,<br> consectetur repellat pariatur quam aspernatur sapiente iste? Cupiditate officia minus alias earum tempore, maiores minima numquam vero!</span>
+                            <div class="txt ml-8 md:mt-0 -mt-16">
+                                <span class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis saepe voluptate dolore laborum,consectetur repellat pariatur quam aspernatur sapiente iste? Cupiditate officia minus alias earum tempore, maiores minima numquam vero!</span>
+                            </div>
                         </div>
                     </div>
 
                     <!-- right  -->
-                    <div class="lg:border lg:border-black lg:mr-12 lg:mb-2 lg:h-96  lg:mb-2 lg:border-dashed lg:border-1 lg:border-black-200"></div>
-
+                    <div class="lg:block hidden lg:border lg:border-black lg:mr-12 lg:mb-2 lg:h-96  lg:mb-2 lg:border-dashed lg:border-1 lg:border-black-200"></div>
+                    <div class="lg:hidden border border-black mr-12 mb-1 mt-4 w-[180%] mb-2 border-dashed border-1 border-black-200"></div>
                     <div class="lg:mt-4 lg:block">
-                        <div class=" lg:mr-32 lg:flex">
-                            <img src="../img/date.png" alt="date" class="w-8 h-8 lg:w-4 lg:h-4">
+                        <div class=" mt-6 lg:mt-px ml-6 lg:ml-px lg:mr-32 lg:flex">
+                            <img src="../img/date.png" alt="date" class="float-left lg:block w-6 h-6 lg:w-4 lg:h-4">
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <p class="datetext datetext2">24/10/2022</p>
+                            <p class="hidden lg:block float-left datetext datetext2">24/10/2022</p>
+                            <p class="lg:hidden ml-8 block float-left datetext datetext2">24/10/2022</p>
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <img src="../img/pencil.png" alt="pencil" class="w-8 h-8 lg:w-4 lg:h-4">
+                            <img src="../img/pencil.png" alt="pencil" class="hidden lg:block w-8 h-8 lg:w-4 lg:h-4">
+                            <img src="../img/pencil.png" alt="pencil" class="lg:hidden w-6 h-6 ml-[48%] -mt-[7%] lg:w-4 lg:h-4">
                         </div>
                         <div class="lg:flex lg:mt-4">
-                            <img src="../img/alarm-clock.png" alt="clock" class="w-8 h-8 lg:w-4 lg:h-4">
+                            <img src="../img/alarm-clock.png" alt="clock" class="lg:block hidden w-8 h-8 lg:w-4 lg:h-4">
+                            <img src="../img/alarm-clock.png" alt="clock" class="float-left lg:hidden -ml-[36%] mt-[9%] w-8 h-8 lg:w-4 lg:h-4">
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <p class="time time2">18:30</p>
-                            <div class="lg:border lg:border-black lg:ml-20 lg:-mt-[5%] lg:h-12  lg:mb-1 lg:border-dashed lg:border-1 lg:border-black-200"></div>
+                            <p class="lg:block hidden time time2">18:30</p>
+                            <p class="lg:hidden ml-[20%] mt-[2%]">18:30</p>
+                            <div class="lg:block hidden lg:border lg:border-black lg:ml-20 lg:-mt-[5%] lg:h-12  lg:mb-1 lg:border-dashed lg:border-1 lg:border-black-200"></div>
+                            <div class="sticky -mt-3 lg:hidden border border-black ml-[45%] w-16 border-dashed border-1 rotate-90 border-black-200"></div>
+
                         </div>
-                        <div class="lg:flex">
-                            <img src="../img/check.png" alt="tick" class="w-8 h-8 lg:w-4 lg:h-4">
+                        <div class="lg:flex ">
+                            <img src="../img/check.png" alt="tick" class="lg:block hidden w-8 h-8 lg:w-4 lg:h-4">
+                            <img src="../img/check.png" alt="tick" class="lg:hidden float-left mt-[9%] ml-[6%] h-8 lg:w-4 lg:h-4">
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <p class="low2">Low Priority</p>
+                            <p class="float-left lg:block hidden">Low Priority</p>
+                            <p class="float-left lg:hidden mt-[10%]">&nbsp;&nbsp;&nbsp;&nbsp;Low Priority</p>
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <img src="../img/trash.png" alt="delete" class="w-8 h-8 lg:w-4 lg:ml-2 lg:mt-[2%] lg:h-4">
+                            <img src="../img/trash.png" alt="delete" class="lg:block hidden w-8 h-8 lg:w-4 lg:ml-2 lg:mt-[2%] lg:h-4">
+                            <img src="../img/trash.png" alt="delete" class="lg:hidden w-8 h-8 mt-[3%] ml-[50%]">
                          </div>
                     </div>
                 </div>
-                <!-- small  --> 
-
             </div>
-            <div class="h-64 lg:h-32 mt-4 overflow-scroll lg:overflow-hidden rounded-lg w-[81%] mr-48 lg:w-[85%] bg-green-200 ml-8 lg:ml-[6%]">
+            <!-- 3 -->
+            <div class="h-64 lg:h-32 mt-4 overflow-x-hidden overflow-scroll lg:overflow-hidden rounded-lg w-[81%] mr-48 lg:w-[85%] bg-green-200 ml-8 lg:ml-[6%]">
                 <div class="lg:flex">
                     <div class="">
                         <div class="lg:flex lg:overflow-hidden overflow-scroll">
@@ -159,51 +181,66 @@
                             <h3 class="float-left text-xl mt-2 lg:mt-1 lg:text-xl lg:mt-[0.8%] lg:ml-2">App Design API User Case Work</h3> 
                             <img src="../img/approved.png" alt="" class="h-7 mt-2 lg:mt-2 lg:ml-2 lg:ml-3 lg:mt-[1%] lg:h-[2.3%] lg:w-6 lg:h-6 lg:w-[2.3%]">
                             <div class="lg:flex lg:-mt-20 lg:ml-2">
-                                 <p class=" mt-2 ml-62 bg-gray-200 ml-96 mr-96 lg:mr-px lg:mt-2 lg:mt-[70%] lg:mb-[70%] lg:ml-2">&nbsp;&nbsp;#Development&nbsp;&nbsp;</p>
-                            </div>
+                                 <p class=" hidden lg:block mt-2 ml-62 bg-gray-200 ml-96 mr-96 lg:mr-px lg:mt-2 lg:mt-[70%] lg:mb-[70%] lg:ml-2">&nbsp;#Development&nbsp;&nbsp;</p>
+                                </div>
                             <br>
                             <div class="lg:flex lg:mb-[1%] lg:ml-2">
                                 <span class="float-left lg:flex lg:ml-80 lg:text-lg lg:mt-2">&nbsp;&nbsp;&nbsp;&nbsp;*Finished in:&nbsp;&nbsp;<p class=" float-right bg-gray-100 mb-20">&nbsp;02:00Hrs&nbsp;</p></span>
                             </div>
                         </div>
                         <div class="lg:fixed -mt-[4.5%] mr-[19%]"> 
-                            <span class="lg:mr-[20%] lg:mb-[200%] lg:ml-10 lg:inline-flex lg:items-baseline">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis saepe voluptate dolore laborum,<br> consectetur repellat pariatur quam aspernatur sapiente iste? Cupiditate officia minus alias earum tempore, maiores minima numquam vero!</span>
+                            <span class="hidden lg:block lg:mr-[20%] lg:mb-[200%] lg:ml-10 lg:inline-flex lg:items-baseline">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis saepe voluptate dolore laborum,<br> consectetur repellat pariatur quam aspernatur sapiente iste? Cupiditate officia minus alias earum tempore, maiores minima numquam vero!</span>
+                            <div class="txt ml-8 md:mt-0 -mt-16">
+                                <span class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis saepe voluptate dolore laborum,consectetur repellat pariatur quam aspernatur sapiente iste? Cupiditate officia minus alias earum tempore, maiores minima numquam vero!</span>
+                            </div>
                         </div>
                     </div>
 
                     <!-- right  -->
-                    <div class="lg:border lg:border-black lg:mr-12 lg:mb-2 lg:h-96  lg:mb-2 lg:border-dashed lg:border-1 lg:border-black-200"></div>
-
+                    <div class="lg:block hidden lg:border lg:border-black lg:mr-12 lg:mb-2 lg:h-96  lg:mb-2 lg:border-dashed lg:border-1 lg:border-black-200"></div>
+                    <div class="lg:hidden border border-black mr-12 mb-1 mt-4 w-[180%] mb-2 border-dashed border-1 border-black-200"></div>
                     <div class="lg:mt-4 lg:block">
-                        <div class=" lg:mr-32 lg:flex">
-                            <img src="../img/date.png" alt="date" class="w-8 h-8 lg:w-4 lg:h-4">
+                        <div class=" mt-6 lg:mt-px ml-6 lg:ml-px lg:mr-32 lg:flex">
+                            <img src="../img/date.png" alt="date" class="float-left lg:block w-6 h-6 lg:w-4 lg:h-4">
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <p class="datetext datetext2">24/10/2022</p>
+                            <p class="hidden lg:block float-left datetext datetext2">24/10/2022</p>
+                            <p class="lg:hidden ml-8 block float-left datetext datetext2">24/10/2022</p>
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <img src="../img/pencil.png" alt="pencil" class="w-8 h-8 lg:w-4 lg:h-4">
+                            <img src="../img/pencil.png" alt="pencil" class="hidden lg:block w-8 h-8 lg:w-4 lg:h-4">
+                            <img src="../img/pencil.png" alt="pencil" class="lg:hidden w-6 h-6 ml-[48%] -mt-[7%] lg:w-4 lg:h-4">
                         </div>
                         <div class="lg:flex lg:mt-4">
-                            <img src="../img/alarm-clock.png" alt="clock" class="w-8 h-8 lg:w-4 lg:h-4">
+                            <img src="../img/alarm-clock.png" alt="clock" class="lg:block hidden w-8 h-8 lg:w-4 lg:h-4">
+                            <img src="../img/alarm-clock.png" alt="clock" class="float-left lg:hidden -ml-[36%] mt-[9%] w-8 h-8 lg:w-4 lg:h-4">
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <p class="time time2">18:30</p>
-                            <div class="lg:border lg:border-black lg:ml-20 lg:-mt-[5%] lg:h-12  lg:mb-1 lg:border-dashed lg:border-1 lg:border-black-200"></div>
+                            <p class="lg:block hidden time time2">18:30</p>
+                            <p class="lg:hidden ml-[20%] mt-[2%]">18:30</p>
+                            <div class="lg:block hidden lg:border lg:border-black lg:ml-20 lg:-mt-[5%] lg:h-12  lg:mb-1 lg:border-dashed lg:border-1 lg:border-black-200"></div>
+                            <div class="sticky -mt-3 lg:hidden border border-black ml-[45%] w-16 border-dashed border-1 rotate-90 border-black-200"></div>
+
                         </div>
-                        <div class="lg:flex">
-                            <img src="../img/check.png" alt="tick" class="w-8 h-8 lg:w-4 lg:h-4">
+                        <div class="lg:flex ">
+                            <img src="../img/check.png" alt="tick" class="lg:block hidden w-8 h-8 lg:w-4 lg:h-4">
+                            <img src="../img/check.png" alt="tick" class="lg:hidden float-left mt-[9%] ml-[6%] h-8 lg:w-4 lg:h-4">
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <p class="low2">Low Priority</p>
+                            <p class="float-left lg:block hidden">Low Priority</p>
+                            <p class="float-left lg:hidden mt-[10%]">&nbsp;&nbsp;&nbsp;&nbsp;Low Priority</p>
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <img src="../img/trash.png" alt="delete" class="w-8 h-8 lg:w-4 lg:ml-2 lg:mt-[2%] lg:h-4">
+                            <img src="../img/trash.png" alt="delete" class="lg:block hidden w-8 h-8 lg:w-4 lg:ml-2 lg:mt-[2%] lg:h-4">
+                            <img src="../img/trash.png" alt="delete" class="lg:hidden w-8 h-8 mt-[3%] ml-[50%]">
                          </div>
                     </div>
                 </div>
-                <!-- small  --> 
-
             </div>
+            &nbsp;&nbsp;&nbsp;
+            <br><br><br><br>
         </div>
-        <div class=" h-[10%]  absolute bottom-0 w-[120%] lg:w-screen lg:mt-[44%] mt-[10%] ml-[14%] lg:h-16 lg:ml-20 bg-white">
-            <p class="lg:mt-4 bottom-0 lg:ml-[30%] ml-[9%]">&copy; 2022,Alpha Business Solutions Pvt. Ltd.All Rights Reserved.</p>
-        </div>
+            <div class="lg:block hidden h-[10%]  absolute bottom-0 w-[120%] lg:w-screen lg:mt-[44%] mt-[10%] ml-[14%] lg:h-16 lg:ml-20 bg-white">
+                <p class="lg:mt-4 bottom-0 lg:ml-[30%] ml-[9%]">&copy; 2022,Alpha Business Solutions Pvt. Ltd.All Rights Reserved.</p>
+            </div>
+            <div class="lg:hidden h-[10%]  absolute bottom-0 w-[120%] -mb-[70%] ml-[14%] bg-white">
+                <p class="mt-4 bottom-0 lg:ml-[30%] ml-[9%]">&copy; 2022,Alpha Business Solutions Pvt. Ltd.All Rights Reserved.</p>
+            </div>
 
         <!-- <div class="overflow-hidden">
             <div class="absolute bottom-0 left-0 w-screen h-20 text-xs sm:h-28 lg:text-base bg-white">
