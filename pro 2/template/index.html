@@ -8,7 +8,7 @@
 </head>
 <body class="overflow-scroll lg:overflow-hidden">
     <header>
-    <div class="flex flex-row lg:fixed lg:w-[100%] sm:w-[100%] lg:border-b-2 border-b-1 border-gray-300 ">
+    <div class="flex flex-row lg:fixed lg:w-screen sm:w-[100%] lg:border-b-2  border-b-1 border-gray-300 ">
         <img  class="w-20 h-12 lg:w-32 lg:ml-2 lg:h-16 p-4" src="../img/logo.png" alt="logo">
         <div class="border border-gray mt-2 mb-2 lg:mb-2"></div>
         <img class=" w-25 h-7 m-1 ml-2 mt-2 lg:m-3 lg:h-10 lg:w-10"src="../img/todo.png" alt="">
@@ -31,28 +31,27 @@
             </div>
         </div>
         <div class="flex lg:fixed -mt-px lg:mt-14 lg:mt-16 h-14 lg:h-[9.5%] bg-gray-200 ml-14 lg:ml-20 w-[120%] lg:w-screen">
-            <div class="flex m-2 lg:m-4 lg:ml-10 w-10 md:w-10 lg:w-44 h-10 lg:bg-slate-50 rounded-sm">
-                <img class="md:w-16 ml-2 lg:w-12" src="../img/plus.png">
-                <span class="invisible md:invisible lg:mt-1 lg:pr-4 lg:visible">Add New Task</span>
+            <div class="flex m-2 lg:m-2 lg:ml-[3%]  w-10 lg:mt-[1%] md:w-10 lg:w-[12.5%] lg:h-[60%] h-10 lg:bg-slate-50 rounded-sm">
+                <img class="md:w-16 ml-2 lg:ml-px lg:w-10" src="../img/plus.png">
+                <span class="invisible md:invisible lg:text-base lg:mt-[2%] lg:pr-4 lg:visible">Add New Task</span>
             </div>
-            <div class="border border-black mt-2 ml-2 lg:mt-4 h-10"></div>
-            <div class="flex m-2 w- mt-3 h-8 bg-white lg:m-4 lg:h-10 ml-4 lg:w-fit rounded-md lg:bg-white">
+            <div class="border border-black mt-2 ml-2 lg:mt-[1%] h-10"></div>
+            <div class="flex m-2 w- mt-3 h-8 bg-white lg:mt-[1%] lg:h-[65%] lg:w-[30%] ml-4 rounded-md lg:bg-white">
                 <img class="w-4 h-4 mt-2 lg:mt-3 m-3" src="../img/Search.png">
                 <input class="w-12 rounded-md mr-8 lg:block lg:w-80" placeholder="Search projects...">
                 <button class="pr-4 hidden lg:block lg:bg-pink-600 mr-4 rounded-md pl-4 mb-1 mt-1 text-white">Search</button>
             </div>
-            <div class="flex m-4 ml-8 -mr-4 mt-2 lg:mt-4 lg:bg-white rounded-md h-10">
-                <img class="w-28 h-16 -ml-9 -mt-3 lg:w-16 lg:h-16 lg:-ml-2 lg:-mt-3" src="../img/cal.png">
-                <!-- <img class="lg:w-16 lg:h-16 lg:-ml-2 lg:-mt-3" src="../img/cal.png"> -->
-                <p class="mt-1 hidden lg:block ml-2">This month</p>
-                <img class="w-2 h-2 mt-3 hidden lg:block ml-2 mr-2" src="../img/hei.png">
+            <div class="flex m-4 ml-8 -mr-4 mt-2 lg:ml-2 lg:w-[10%] lg:mt-4 lg:bg-white lg:w-[14%] lg:mt-[1%] lg:h-[62%] rounded-md h-10">
+                <img class="w-28 h-16 -ml-9 -mt-3 lg:w-14 lg:h-14 lg:-ml-2 lg:-mt-3" src="../img/cal.png">
+                <p class="mt-1 hidden lg:text-base lg:ml-[4%] lg:block ml-2">This month</p>
+                <img class="w-2 h-2 mt-3 lg:mt-[7%] hidden lg:block ml-2 mr-2" src="../img/hei.png">
             </div>
-            <div class="border border-black mr-2 mt-2 mr-px lg:mt-4 lg:ml-8 mb-2 lg:mb-2 h-10"></div>
+            <div class="border border-black mr-2 mt-2 mr-px lg:mt-3 lg:ml-[2%] mb-2 lg:mb-2 h-10"></div>
             <div class="m-5">
-                <p class="text-lg text-xs mr-4 -mt-4 lg:mt-px lg:mb-2 lg:text-lg">&nbsp;You've got 7 tasks coming up in the next days.</p>
+                <p class="text-lg text-xs lg:text-sm mr-4 -mt-4 lg:mt-[0.1%] lg:mb-2 lg:text-lg">&nbsp;You've got 7 tasks coming up in the next days.</p>
             </div>
         </div>
-        <div class="absolute lg:absolute overflow-hidden bg-pink-100 top-28 h-auto md:h-[100%] -mt-2 w-[120%] lg:w-[94.99%] ml-14 lg:mt-6 lg:ml-20">
+        <div class="absolute lg:absolute overflow-hidden bg-pink-100 top-[22.5%] lg:top-[16.5%] h-auto md:h-[100%] -mt-2 w-[120%] lg:w-screen ml-14 lg:mt-6 lg:ml-20">
             <div class="h-64 lg:h-32 mt-4 overflow-x-hidden overflow-scroll lg:overflow-hidden rounded-lg w-[81%] mr-48 lg:w-[85%] bg-green-200 ml-8 lg:ml-[6%]">
                 <div class="lg:flex">
                     <div class="">
@@ -68,7 +67,7 @@
                                 <span class="float-left lg:flex lg:ml-80 lg:text-lg lg:mt-2">&nbsp;&nbsp;&nbsp;&nbsp;*Finished in:&nbsp;&nbsp;<p class=" float-right bg-gray-100 mb-20">&nbsp;02:00Hrs&nbsp;</p></span>
                             </div>
                         </div>
-                        <div class="lg:fixed -mt-[4.5%] mr-[19%]"> 
+                        <div class="lg:fixed -mt-[10%] mr-[19%]"> 
                             <span class="hidden lg:block lg:mr-[20%] lg:mb-[200%] lg:ml-10 lg:inline-flex lg:items-baseline">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis saepe voluptate dolore laborum,<br> consectetur repellat pariatur quam aspernatur sapiente iste? Cupiditate officia minus alias earum tempore, maiores minima numquam vero!</span>
                             <div class="txt lg:h-0 h-auto ml-8 md:mt-0 -mt-16">
                                 <span class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis saepe voluptate dolore laborum,consectetur repellat pariatur quam aspernatur sapiente iste? Cupiditate officia minus alias earum tempore, maiores minima numquam vero!</span>
@@ -91,7 +90,7 @@
                         </div>
                         <div class="lg:flex lg:mt-4">
                             <img src="../img/alarm-clock.png" alt="clock" class="lg:block hidden w-8 h-8 lg:w-4 lg:h-4">
-                            <img src="../img/alarm-clock.png" alt="clock" class="float-left lg:hidden -ml-[36%] mt-[9%] w-8 h-8 lg:w-4 lg:h-4">
+                            <img src="../img/alarm-clock.png" alt="clock" class="float-left lg:hidden ml-[5%] mt-[9%] w-8 h-8 lg:w-4 lg:h-4">
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             <p class="lg:block hidden time time2">18:30</p>
                             <p class="lg:hidden ml-[20%] mt-[2%]">18:30</p>
@@ -101,7 +100,7 @@
                         </div>
                         <div class="lg:flex ">
                             <img src="../img/check.png" alt="tick" class="lg:block hidden w-8 h-8 lg:w-4 lg:h-4">
-                            <img src="../img/check.png" alt="tick" class="lg:hidden float-left mt-[9%] ml-[6%] h-8 lg:w-4 lg:h-4">
+                            <img src="../img/check.png" alt="tick" class="lg:hidden float-left mt-[10%] -ml-[9%] h-8 lg:w-4 lg:h-4">
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             <p class="float-left lg:block hidden">Low Priority</p>
                             <p class="float-left lg:hidden mt-[10%]">&nbsp;&nbsp;&nbsp;&nbsp;Low Priority</p>
@@ -128,7 +127,7 @@
                                 <span class="float-left lg:flex lg:ml-80 lg:text-lg lg:mt-2">&nbsp;&nbsp;&nbsp;&nbsp;*Finished in:&nbsp;&nbsp;<p class=" float-right bg-gray-100 mb-20">&nbsp;02:00Hrs&nbsp;</p></span>
                             </div>
                         </div>
-                        <div class="lg:fixed -mt-[4.5%] mr-[19%]"> 
+                        <div class="lg:fixed -mt-[10%] mr-[19%]"> 
                             <span class="hidden lg:block lg:mr-[20%] lg:mb-[200%] lg:ml-10 lg:inline-flex lg:items-baseline">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis saepe voluptate dolore laborum,<br> consectetur repellat pariatur quam aspernatur sapiente iste? Cupiditate officia minus alias earum tempore, maiores minima numquam vero!</span>
                             <div class="txt ml-8 md:mt-0 -mt-16">
                                 <span class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis saepe voluptate dolore laborum,consectetur repellat pariatur quam aspernatur sapiente iste? Cupiditate officia minus alias earum tempore, maiores minima numquam vero!</span>
@@ -151,17 +150,16 @@
                         </div>
                         <div class="lg:flex lg:mt-4">
                             <img src="../img/alarm-clock.png" alt="clock" class="lg:block hidden w-8 h-8 lg:w-4 lg:h-4">
-                            <img src="../img/alarm-clock.png" alt="clock" class="float-left lg:hidden -ml-[36%] mt-[9%] w-8 h-8 lg:w-4 lg:h-4">
+                            <img src="../img/alarm-clock.png" alt="clock" class="float-left lg:hidden ml-[5%] mt-[9%] w-8 h-8 lg:w-4 lg:h-4">
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             <p class="lg:block hidden time time2">18:30</p>
                             <p class="lg:hidden ml-[20%] mt-[2%]">18:30</p>
                             <div class="lg:block hidden lg:border lg:border-black lg:ml-20 lg:-mt-[5%] lg:h-12  lg:mb-1 lg:border-dashed lg:border-1 lg:border-black-200"></div>
                             <div class="sticky -mt-3 lg:hidden border border-black ml-[45%] w-16 border-dashed border-1 rotate-90 border-black-200"></div>
-
                         </div>
                         <div class="lg:flex ">
                             <img src="../img/check.png" alt="tick" class="lg:block hidden w-8 h-8 lg:w-4 lg:h-4">
-                            <img src="../img/check.png" alt="tick" class="lg:hidden float-left mt-[9%] ml-[6%] h-8 lg:w-4 lg:h-4">
+                            <img src="../img/check.png" alt="tick" class="lg:hidden float-left mt-[10%] -ml-[9%] h-8 lg:w-4 lg:h-4">
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             <p class="float-left lg:block hidden">Low Priority</p>
                             <p class="float-left lg:hidden mt-[10%]">&nbsp;&nbsp;&nbsp;&nbsp;Low Priority</p>
@@ -211,7 +209,7 @@
                         </div>
                         <div class="lg:flex lg:mt-4">
                             <img src="../img/alarm-clock.png" alt="clock" class="lg:block hidden w-8 h-8 lg:w-4 lg:h-4">
-                            <img src="../img/alarm-clock.png" alt="clock" class="float-left lg:hidden -ml-[36%] mt-[9%] w-8 h-8 lg:w-4 lg:h-4">
+                            <img src="../img/alarm-clock.png" alt="clock" class="float-left lg:hidden ml-[5%] mt-[9%] w-8 h-8 lg:w-4 lg:h-4">
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             <p class="lg:block hidden time time2">18:30</p>
                             <p class="lg:hidden ml-[20%] mt-[2%]">18:30</p>
@@ -221,7 +219,7 @@
                         </div>
                         <div class="lg:flex ">
                             <img src="../img/check.png" alt="tick" class="lg:block hidden w-8 h-8 lg:w-4 lg:h-4">
-                            <img src="../img/check.png" alt="tick" class="lg:hidden float-left mt-[9%] ml-[6%] h-8 lg:w-4 lg:h-4">
+                            <img src="../img/check.png" alt="tick" class="lg:hidden float-left mt-[10%] -ml-[9%] h-8 lg:w-4 lg:h-4">
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             <p class="float-left lg:block hidden">Low Priority</p>
                             <p class="float-left lg:hidden mt-[10%]">&nbsp;&nbsp;&nbsp;&nbsp;Low Priority</p>
@@ -233,12 +231,12 @@
                 </div>
             </div>
             &nbsp;&nbsp;&nbsp;
-            <br><br><br><br>
+            <br><br>
         </div>
             <div class="lg:block hidden h-[10%]  absolute bottom-0 w-[120%] lg:w-screen lg:mt-[44%] mt-[10%] ml-[14%] lg:h-16 lg:ml-20 bg-white">
                 <p class="lg:mt-4 bottom-0 lg:ml-[30%] ml-[9%]">&copy; 2022,Alpha Business Solutions Pvt. Ltd.All Rights Reserved.</p>
             </div>
-            <div class="lg:hidden h-[10%]  absolute bottom-0 w-[120%] -mb-[70%] ml-[14%] bg-white">
+            <div class="lg:hidden h-[10%]  absolute bottom-0 w-[120%] -mb-[100%] ml-[14%] bg-white">
                 <p class="mt-4 bottom-0 lg:ml-[30%] ml-[9%]">&copy; 2022,Alpha Business Solutions Pvt. Ltd.All Rights Reserved.</p>
             </div>
 
